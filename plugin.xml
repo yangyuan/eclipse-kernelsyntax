@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension point="org.eclipse.ui.editors">
+      <editor name="Kernel Syntax C Editor"
+            extensions="c,cc,cpp,h"
+            icon="icons/file_c.gif"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            class="kernelsyntax.editors.KernelSyntaxEditorC"
+            id="kernelsyntax.editors.KernelSyntaxEditorC">
+      </editor>
+      <editor name="Kernel Syntax Python Editor"
+            extensions="py"
+            icon="icons/file_py.gif"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            class="kernelsyntax.editors.KernelSyntaxEditorPython"
+            id="kernelsyntax.editors.KernelSyntaxEditorPython">
+      </editor>
+      <editor name="Kernel Syntax Shell Editor"
+            extensions="sh"
+            icon="icons/file_sh.gif"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            class="kernelsyntax.editors.KernelSyntaxEditorShell"
+            id="kernelsyntax.editors.KernelSyntaxEditorShell">
+      </editor>
+   </extension>
+</plugin>
